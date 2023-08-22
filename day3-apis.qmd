@@ -1,5 +1,6 @@
 ---
 title: "Using APIs to programatically retrieve data"
+engine: knitr
 ---
 
 
@@ -54,3 +55,7 @@ The data: https://doi.org/10.5063/F1N58JPP
 ### Bonus
 
 - How does it compare to French?
+
+<hr>
+
+Back to main [Repo](https://github.com/brunj7/eds214-handson-api)
