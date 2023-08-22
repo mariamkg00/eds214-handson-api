@@ -1,4 +1,4 @@
-# EDS-214: Introduction to the using APIs to get data
+# EDS-214: Using APIs to get data
 
 We will practice the following R packages:
 
