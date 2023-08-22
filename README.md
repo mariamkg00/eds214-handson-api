@@ -5,7 +5,7 @@ We will practice the following R packages:
 - USGS `dataRetrieval` R package to get stream flow data
 - `metajam` to get data from the [dataONE](https://www.dataone.org/) federation of data repositories 
 
-**[Exercises](https://brunj7.github.io/eds214-handson-api/api-handson.html))
+**[Exercises](https://brunj7.github.io/eds214-handson-api/api-handson.html)**
 
 <br>
 
