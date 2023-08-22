@@ -1,0 +1,8 @@
+project:
+  output-dir: docs
+format:
+  html:
+    html-math-method: katex
+    theme: 
+      - cosmo
+      - medsstyles.scss
