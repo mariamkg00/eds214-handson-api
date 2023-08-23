@@ -3,6 +3,12 @@ title: "Using APIs to programatically retrieve data"
 engine: knitr
 ---
 
+## Setup
+
+- Create a new repository `api-practice` choosing to add a README.md
+- Clone this repository to Taylor
+- Start a new Quarto document to do the following exercises
+
 
 ## USGS `dataRetrieval` R package to retrieve hydrological data
 
