@@ -41,7 +41,7 @@ Tutorial for the package can be found here:
 
 The `metajam` R package relies on the dataONE API to download data **and** metadata into your R Environment. It is currently supporting KNB, ADC and EDI repositories because they rely on the metadata standard EML.
 
-Short [intro](https://brunj7.github.io/EDS-214-analytical-workflows/slides/metajam_intro.html) to the package
+Short [intro](https://brunj7.github.io/eds214-slides/metajam_intro.html) to the package
 
 
 ### Exercise 2
