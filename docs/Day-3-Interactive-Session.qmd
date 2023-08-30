@@ -1,0 +1,22 @@
+---
+title: "Day 3 Interactive Session"
+editor: visual
+---
+
+```{r}
+library(dataRetrieval)
+library(tidyverse)
+```
+
+```{r}
+siteNumber <- "11118500" 
+info <- readNWISsite(siteNumber)
+parameterCd <- "00060"
+raw_daily_data <- readNWISdv( siteNumber, parameterCd, "2023-08-19","2023-08-22") 
+
+tidy_daily_data <- raw_daily_data %>%    
+  rename(flow = X_00060_00003) 
+ggplot(data= tidy_daily_data, aes(x= Date, y = flow))+ 
+  geom_line()+  
+  labs(title = "Time Series for Ventura")+   xlab("Date")+   ylab("Flow rate")
+```
